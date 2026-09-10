@@ -118,18 +118,21 @@ override so a workspace stays one family:
 
 ```sh
 export TTYTHEME=auto          # default; follow the terminal
-export TTYTHEME=dark
-gitwing --theme light
+export TTYTHEME=nord
+gitwing --theme catppuccin
 gitwing --borderless          # or TTYBORDERLESS=1 for all three panes
 ```
+
+Palettes: Charm `auto`/`dark`/`light`, plus Catppuccin, Dracula, Nord,
+Gruvbox, Tokyo Night, Solarized, One Dark, Rosé Pine, Everforest,
+Kanagawa. Switch live with [ttythemer](https://github.com/ttyzero/ttythemer).
 
 Live look (all three panes subscribe to ttybus channel `theme`):
 
 ```sh
-ttybus pub theme 'THEME dark'
-ttybus pub theme 'THEME light'
+ttybus pub theme 'THEME nord'
+ttybus pub theme 'THEME catppuccin BORDERS=0'
 ttybus pub theme 'BORDERS=0'
-ttybus pub theme 'THEME dark BORDERS=1'
 ```
 
 ### How other TUIs pick up a theme
