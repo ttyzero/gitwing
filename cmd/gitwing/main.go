@@ -39,7 +39,7 @@ Private GitHub repos:
   $GITHUB_TOKEN, $GH_TOKEN, then gh auth token (gh auth login / keyring)
 
 Theme (all companion panes honor this):
-  --theme, $TTYTHEME, $CLITHEME, then OSC 11 / $COLORFGBG
+  --theme, $TTYTHEME, $CLITHEME, ~/.config/ttyzero/theme, then OSC 11 / $COLORFGBG
   Values: auto (default), dark, light, or a palette (nord, catppuccin, …)
   --borderless / $TTYBORDERLESS=1  no rounded frame
 

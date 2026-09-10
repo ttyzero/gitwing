@@ -121,6 +121,7 @@ override so a workspace stays one family:
 --theme flag
   > $TTYTHEME          gitwing / peek / buscope
   > $CLITHEME          proposed cross-CLI standard (dark|light|auto)
+  > ~/.config/ttyzero/theme   written by ttythemer (THEME / BORDERS)
   > OSC 11             live terminal background (Bubble Tea)
   > $COLORFGBG         cheap, static (rxvt, Konsole, iTerm)
   > dark
