@@ -1,5 +1,10 @@
 /gitwing
-/dist
+/bin/
+/dist/
 *.exe
 *.test
 *.out
+vendor/
+.DS_Store
+*.swp
+*~

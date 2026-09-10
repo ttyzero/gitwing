@@ -40,7 +40,17 @@ borders, accents, and the graph.
 
 ## Install
 
-Go 1.25+ (Charm v2). `git` on `PATH`.
+```sh
+curl -fsSL https://raw.githubusercontent.com/ttyzero/gitwing/main/install.sh | sh
+```
+
+Whole kit (gitwing, peek, buscope, ttythemer) after ttybus:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/ttyzero/ttybus/main/install-kit.sh | sh
+```
+
+Installs to `~/.local/bin`. From source: Go 1.25+ (Charm v2), `git` on `PATH`.
 
 ```sh
 make build
